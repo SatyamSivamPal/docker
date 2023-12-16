@@ -24,3 +24,6 @@ docker -it p port:port -e key=value {name of the container}
 
 docker push {repository_name}
 - how to push the image in docker-hub
+
+docker commit -m "message" {container_id} {image_name}
+- share the container that you made changes to someone else
