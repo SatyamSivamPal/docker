@@ -22,6 +22,9 @@ docker -it p browser_port:container_port {name of the container}
 docker -it p port:port -e key=value {name of the container}
 - e for the environment variable
 
+docker build -t {new_image_name} {path_of_the_Dockerfile}
+- used to create customized images
+
 docker push {repository_name}
 - how to push the image in docker-hub
 
