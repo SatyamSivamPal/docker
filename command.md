@@ -1,13 +1,13 @@
 docker -v
 - docker version
 
-docker pull <image name>
+docker pull {image name}
 - pull image
 
 docker images
 - total number of images pull from hub.docker
 
-docker exec -it <image name>
+docker exec -it [image name]
 - open terminal in that image or OS
 
 docker run --name {name of the container} -it {image name}
