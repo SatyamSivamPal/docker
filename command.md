@@ -30,3 +30,6 @@ docker push {repository_name}
 
 docker commit -m "message" {container_id} {image_name}
 - share the container that you made changes to someone else
+
+docker compose up
+- to create a group of container in a single container with all the specification
