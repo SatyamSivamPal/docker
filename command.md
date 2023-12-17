@@ -33,3 +33,17 @@ docker commit -m "message" {container_id} {image_name}
 
 docker compose up
 - to create a group of container in a single container with all the specification
+
+docker run -t --name {name_of_container} --newtwork host {image_name}
+- container will run in the host network
+
+docker network create -d bridge {name_of_network}
+- creating custom network 
+
+docker volume create {volume_name}
+- docker mount volume 
+- docker volume is used to restore the data that is destroyed during the destroying of container.(permanent storage)
+
+docker efficient Caching in layers
+
+docker multi stage builds 
